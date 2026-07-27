@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Besac'Services</title>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f8f4;
+color:#222;
+}
+
+header{
+background:#2b9348;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+.logo{
+font-size:45px;
+font-weight:bold;
+}
+
+.logo span{
+color:#d9ffd9;
+}
+
+header p{
+font-size:20px;
+margin:15px;
+}
+
+.btn{
+display:inline-block;
+background:white;
+color:#2b9348;
+padding:15px 25px;
+border-radius:25px;
+margin:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav{
+background:#1f6f35;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:50px 10%;
+}
+
+h2{
+text-align:center;
+font-size:35px;
+margin-bottom:30px;
+}
+
+.hero{
+text-align:center;
+padding:70px 20px;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.hero p{
+font-size:22px;
+margin-top:20px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:280px;
+border-radius:20px;
+box-shadow:0 5px 15px #ccc;
+}
+
+.card h3{
+color:#2b9348;
+}
+
+table{
+width:100%;
+background:white;
+border-collapse:collapse;
+}
+
+th{
+background:#2b9348;
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+text-align:center;
+}
+
+.info{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 15px #ccc;
+line-height:1.6;
+}
+
+form{
+background:white;
+padding:30px;
+border-radius:20px;
+max-width:700px;
+margin:auto;
+}
+
+input,select,textarea{
+width:100%;
+padding:15px;
+margin:10px 0 20px;
+border-radius:10px;
+border:1px solid #aaa;
+}
+
+button{
+background:#2b9348;
+color:white;
+border:none;
+padding:15px 30px;
+border-radius:20px;
+cursor:pointer;
+}
+
+footer{
+background:#1f6f35;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+🌱 Besac<span>'Services</span>
+</div>
+
+<p>
+Votre coup de main du quotidien à Besançon !
+</p>
+
+<a class="btn" href="tel:0749074321">
+📞 07 49 07 43 21
+</a>
+
+<a class="btn" href="mailto:BesacServices@protonmail.com">
+📧 Email
+</a>
+
+</header>
+
+
+<nav>
+
+<a href="#services">Services</a>
+<a href="#tarifs">Tarifs</a>
+<a href="#contact">Réserver</a>
+
+</nav>
+
+
+
+<div class="hero">
+
+<h1>Besoin d'un coup de main ?</h1>
+
+<p>
+Des services simples et sérieux dans toute la ville de Besançon.
+</p>
+
+</div>
+
+
+
+<section id="services">
+
+<h2>Nos services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌿 Tonte de pelouse</h3>
+<p>Entretien de jardin.</p>
+</div>
+
+<div class="card">
+<h3>🐕 Promenade de chien</h3>
+<p>30 minutes ou 1 heure.</p>
+</div>
+
+<div class="card">
+<h3>🌱 Arrosage plantes</h3>
+<p>Pendant vos vacances.</p>
+</div>
+
+<div class="card">
+<h3>🚗 Lavage voiture</h3>
+<p>Nettoyage extérieur.</p>
+</div>
+
+<div class="card">
+<h3>🛒 Aide aux courses</h3>
+<p>Un coup de main quotidien.</p>
+</div>
+
+<div class="card">
+<h3>🐾 Garde animaux</h3>
+<p>Visites et surveillance.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="tarifs">
+
+<h2>Tarifs</h2>
+
+<table>
+
+<tr>
+<th>Service</th>
+<th>Prix</th>
+</tr>
+
+<tr>
+<td>Tonte pelouse</td>
+<td>À partir de 15€</td>
+</tr>
+
+<tr>
+<td>Promenade chien</td>
+<td>10€</td>
+</tr>
+
+<tr>
+<td>Arrosage plantes</td>
+<td>À partir de 5€</td>
+</tr>
+
+<tr>
+<td>Lavage voiture</td>
+<td>15€</td>
+</tr>
+
+<tr>
+<td>Aide courses</td>
+<td>À partir de 10€</td>
+</tr>
+
+</table>
+
+</section>
+
+
+
+<section>
+
+<h2>Zone desservie</h2>
+
+<div class="info">
+📍 Besançon (tous les quartiers)
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>À propos</h2>
+
+<div class="info">
+
+Besac'Services est un service de proximité créé par un jeune habitant de Besançon.
+
+<br><br>
+
+Étant mineur, les prestations sont réalisées avec l'accord des responsables légaux.
+
+<br><br>
+
+Notre objectif est de proposer une aide sérieuse et accessible.
+
+</div>
+
+</section>
+
+
+
+<section id="contact">
+
+<h2>Réserver un service</h2>
+
+
+<form id="contact-form">
+
+
+<input name="from_name" placeholder="Nom" required>
+
+
+<input name="from_email" placeholder="Email" required>
+
+
+<input name="phone" placeholder="Téléphone" required>
+
+
+<select name="service">
+
+<option>Tonte de pelouse</option>
+<option>Promenade de chien</option>
+<option>Arrosage plantes</option>
+<option>Lavage voiture</option>
+<option>Aide aux courses</option>
+<option>Garde animaux</option>
+
+</select>
+
+
+<input name="date" type="date">
+
+
+<textarea name="message" placeholder="Votre message"></textarea>
+
+
+<button>
+Envoyer la demande
+</button>
+
+
+</form>
+
+
+</section>
+
+
+
+
+<footer>
+
+<h2>🌱 Besac'Services</h2>
+
+<p>📞 07 49 07 43 21</p>
+
+<p>📧 BesacServices@protonmail.com</p>
+
+<p>📍 Besançon</p>
+
+</footer>
+
+
+
+
+<script>
+
+emailjs.init({
+publicKey:"syKEFs1lWtDNribh7"
+});
+
+
+document.getElementById("contact-form")
+.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+
+emailjs.sendForm(
+"service_hske6rk",
+"template_mv58b0q",
+this
+)
+
+.then(()=>{
+
+alert("Demande envoyée avec succès !");
+
+this.reset();
+
+})
+
+.catch(()=>{
+
+alert("Erreur lors de l'envoi.");
+
+});
+
+
+});
+
+</script>
+
+
+</body>
+
+</html>
